@@ -2,7 +2,6 @@
 install: 
 	pip install -r requirements.txt --upgrade
 	pip install -e .
-	pre-commit install
 
 test:
 	pytest
